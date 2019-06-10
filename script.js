@@ -23,7 +23,7 @@ function form__summ(thisItem) {
 	&& !Number.isNaN(secondNumber) 
   ) {
     const summ = firstNumber + secondNumber;
-    alert(summ.toFixed(1));
+    alert( +summ.toFixed(10) );
   } else {
     alert('введены не числа');
   }
